@@ -18,7 +18,7 @@ spec:
     spec:
      containers:
      - name: newcontainer
-       image: allureddy/new
+       image: allureddy/sample:1
        ports:
        - containerPort: 8080
 
