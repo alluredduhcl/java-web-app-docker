@@ -30,7 +30,7 @@ steps:
   displayName: Push image
   inputs:
     containerRegistry: |
-      $(dockerHub)
+      dockerhub_connection
     repository: sample
     command: push
     tags: |
