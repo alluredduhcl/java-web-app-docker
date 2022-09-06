@@ -31,7 +31,7 @@ steps:
   inputs:
     containerRegistry: |
       dockerhub_connection
-    repository: sample:28
+    repository: sample:31
     command: push
     tags: |
       test1
