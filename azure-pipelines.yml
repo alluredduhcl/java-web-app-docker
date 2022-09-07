@@ -26,11 +26,10 @@ steps:
     repository: sample
     command: build
     Dockerfile: Dockerfile
+- 
 - task: Docker@2
-  displayName: Push image
   inputs:
-    containerRegistry: |
-      dockerhub_connection
-    repository: allureddy1/sample:35
-    command: push
+    containerRegistry: 'dockerhub_connection'
+    repository: 'allureddy1/sample'
+    command: 'push'
   
